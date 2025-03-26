@@ -99,8 +99,6 @@
                                   &kp SPACE  &kp BACKSPACE  &kp LEFT_WIN    &kp DELETE  &kp ENTER
                                              &kp LEFT_ALT   &mo 1           &mo 2
             >;
-
-            trackball-bindings = <&tmv_coarse>;
         };
 
         Navigation {
