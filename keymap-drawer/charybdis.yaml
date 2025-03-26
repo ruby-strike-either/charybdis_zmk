@@ -1,62 +1,7 @@
 layout: {zmk_keyboard: charybdis}
 layers:
-  Base:
-  - ESC
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - DELETE
-  - TAB
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - \
-  - LEFT CONTROL
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - ;
-  - ''''
-  - LEFT SHIFT
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - ','
-  - .
-  - /
-  - {t: MouseScroll, h: toggle}
-  - SPACE
-  - BACK SPACE
-  - LEFT WIN
-  - DELETE
-  - ENTER
-  - LEFT ALT
-  - Navigation
-  - NumAndSpecial
+  Base: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', DELETE, TAB, Q, W, E, R, T, Y, U, I, O, P, \, LEFT CONTROL, A, S, D, F, G, H, J, K, L, ;, '''', LEFT
+      SHIFT, Z, X, C, V, B, N, M, ',', ., /, MouseScroll, SPACE, BACK SPACE, LEFT WIN, DELETE, ENTER, LEFT ALT, Navigation, NumAndSpecial]
   Navigation:
   - '`'
   - F1
@@ -219,7 +164,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
