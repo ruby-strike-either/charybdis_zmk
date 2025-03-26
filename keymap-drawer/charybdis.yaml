@@ -174,7 +174,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [54, 55]
+- p: [54, 11, 0, 55]
   k: BT CLR ALL
   l: [Base]
 - p: [43, 44]

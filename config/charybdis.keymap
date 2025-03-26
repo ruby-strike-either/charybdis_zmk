@@ -56,7 +56,7 @@
 
         bt_reset {
             bindings = <&bt BT_CLR_ALL>;
-            key-positions = <54 55>;
+            key-positions = <54 11 0 55>;
             layers = <0>;
         };
 
